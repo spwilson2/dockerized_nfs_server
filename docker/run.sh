@@ -35,5 +35,6 @@ echo "- Nfs server is up and running.."
 ## Run until signaled to stop...
 while :
 do
-    sleep 1  # Interupt interval time
+    sleep infinty &
+	wait
 done
